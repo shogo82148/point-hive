@@ -19,6 +19,7 @@
         // 20秒ぐらいほったら満足やろ
         setTimeout(() => {
           for (let i = 0; i < c; i++) {
+            console.log('stop!');
             workers[i].terminate();
           }
         }, 20000);
