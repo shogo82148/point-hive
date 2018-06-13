@@ -1,4 +1,4 @@
-class Poinhive {
+class Pointhive {
   constructor () {}
 
   start () {
